@@ -1,17 +1,53 @@
-# first_flutter_app
+# Flutter_Lab2 — Первое знакомство с Flutter
 
-A new Flutter project.
+Проект создан в рамках лабораторной работы №2 по курсу кроссплатформенной разработки.  
+Цель — изучить базовую структуру Flutter-приложения, научиться работать с виджетами (MaterialApp, Scaffold, Container, Center, Text), настраивать стили и градиенты, а также освоить инструменты разработчика (Hot Reload, DevTools).
 
-## Getting Started
+## Автор
 
-This project is a starting point for a Flutter application.
+- **Имя:** [Ваше Имя]
+- **Группа:** [Номер группы]
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter:** 3.41.2  
+- **Dart:** 3.11.0  
+- **Платформа:** Web (Chrome)  
+- **IDE:** VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![Градиентный фон и стилизованный текст](img/step9_ВашаФамилия.png)
+
+> *Финальный вид приложения после выполнения всех шагов лабораторной работы.*
+
+## Как запустить
+
+1. **Клонировать репозиторий**  
+   ```bash
+   git clone <URL_вашего_репозитория>
+   ```
+2.Перейти в папку проекта
+    ```
+    cd Flutter_Lab2
+    ```
+3.Установить зависимости
+```
+flutter pub get
+```
+
+4. Запустить в браузере
+    ```
+    flutter run -d chrome
+    ```
+
+
+## Что изучили
+
+- Создание Flutter-проекта и запуск в Chrome.
+- Декларативный UI: дерево виджетов (MaterialApp → Scaffold → Container → Center → Text).
+- Настройка фона через `Container` + `BoxDecoration` + `LinearGradient`.
+- Стилизация текста с помощью `TextStyle` (размер, цвет).
+- Использование `Hot Reload` (клавиша `r`) и `Hot Restart` (`R`) для быстрой разработки.
+- Отключение отладочного баннера (`debugShowCheckedModeBanner: false`).
+- Работа с DevTools и Flutter Inspector.
