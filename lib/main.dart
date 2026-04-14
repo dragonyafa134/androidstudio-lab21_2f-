@@ -19,11 +19,13 @@ void main(){
           ),
           child: Center(
             child: Text("Hello world",
+            // child: Text("Меня зовут Дарья\nЯ стужент группы ИСП 233",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 32,
               ),),
             ),
+            
           ),
       ),
     ),
