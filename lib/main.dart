@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
-void main(){
+
+void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:Scaffold(
-        body:  Container(
+      home: Scaffold(
+        body: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
@@ -18,15 +18,22 @@ void main(){
             ),
           ),
           child: Center(
-            child: Text("Hello world",
-            // child: Text("Меня зовут Дарья\nЯ стужент группы ИСП 233",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 32,
-              ),),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  "Hello world", // "Меня зовут Дарья\nЯ стужент группы ИСП 233"
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 32,
+                  ),
+                ),
+                SizedBox(height: 20), 
+                Image.network('https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg'),
+              ],
             ),
-            
           ),
+        ),
       ),
     ),
   );
